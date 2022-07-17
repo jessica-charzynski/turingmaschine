@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ESA4</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Poppins.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/introjs.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md" style="padding-left: 50px;">
+        <div class="container-fluid"><a class="navbar-brand" href=""><strong>Projektaufgabe P3: Kellerautomat</strong><br>
+                <p class="footer">Jessica Charzynski | Matrikelnummer: 923010 | Theoretische Informatik (Sommersemester 2022)</p>
+            </a>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">zur Webanwendung</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="dokumentation">
+        <h2>Dokumentation</h2>
+        <hr>
+        <h5>Aufgabenstellung</h5>
+        <p>Simulieren und visualisieren Sie eine Turing Maschine (TM), die die Embedded Reber Grammar (ERG)&nbsp;mit so wenig Zuständen wie möglich entscheidet. Die TM soll nicht nur einen&nbsp;DEA zur ERG Erkennung nachbilden. Sie sollen eine einfachere Lösung finden, die mit einem DEA nicht realisierbar ist.<br></p>
+        <hr>
+        <h5>Fachliche Dokumentation</h5>
+        <p>Formal kann die Turingmaschine als 7-Tupel definiert werden:<br><strong>TM</strong>&nbsp;<strong>= {&nbsp;Q , Σ , Γ , δ , S , Q&nbsp;</strong><sub><strong>accept&nbsp;</strong></sub><strong>, Q&nbsp;</strong><sub><strong>reject</strong></sub><strong> }</strong><br></p>
+        <ul>
+            <li>die Zustandsmenge Q = { q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13 }<br></li>
+            <li>das Eingabealphabet&nbsp;Σ = { B, E, P, S, T, V, X }<br></li>
+            <li>d<span style="color: rgb(0, 0, 0);">as Bandalphabet&nbsp;</span>Γ = {&nbsp;⌴,&nbsp;B, E, P, S, T, V, X }<br></li>
+            <li>der Startzustand S =&nbsp;{ q0 }<br></li>
+            <li><span style="color: rgb(32, 33, 34);">der akzeptierende Endzustand&nbsp;</span>Q<sub>accept </sub>=&nbsp;{ q13 }<br></li>
+            <li>der ablehnende Zustand Q<sub>reject</sub> zur Fehlerbehandlung liegt bei allen Übergängen vor, <br>wurde aber für die Übersichtlichkeit bewusst nicht im Graphen eingezeichnet</li>
+        </ul>
+        <p>Anbei befindet sich Überführungstabelle&nbsp;δ als tabellarische Darstellung:<br></p>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Q</th>
+                        <th><span style="font-weight: normal !important;">Γ&nbsp;</span><br></th>
+                        <th>Q</th>
+                        <th><span style="font-weight: normal !important;">Γ</span><br></th>
+                        <th>{ L, R }</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>q0</td>
+                        <td>B</td>
+                        <td>q1</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q1</td>
+                        <td>T</td>
+                        <td>q2</td>
+                        <td>T</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q1</td>
+                        <td>P</td>
+                        <td>q2</td>
+                        <td>P</td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q2</td>
+                        <td>B</td>
+                        <td>q3</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q3</td>
+                        <td>T</td>
+                        <td>q4</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q3</td>
+                        <td>P</td>
+                        <td>q5</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q4</td>
+                        <td>S</td>
+                        <td>q4</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q4</td>
+                        <td>X</td>
+                        <td>q6</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q5</td>
+                        <td>T</td>
+                        <td>q5</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q5</td>
+                        <td>V</td>
+                        <td>q7</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q6</td>
+                        <td>X</td>
+                        <td>q5</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q6</td>
+                        <td>S</td>
+                        <td>q8</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q7</td>
+                        <td>V</td>
+                        <td>q8</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q8</td>
+                        <td>E</td>
+                        <td>q9</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q9</td>
+                        <td>T</td>
+                        <td>q10</td>
+                        <td>⌴<br></td>
+                        <td>L</td>
+                    </tr>
+                    <tr>
+                        <td>q9</td>
+                        <td>P</td>
+                        <td>q11</td>
+                        <td>⌴<br></td>
+                        <td>L</td>
+                    </tr>
+                    <tr>
+                        <td>q10</td>
+                        <td>⌴<br></td>
+                        <td>q10</td>
+                        <td>⌴<br></td>
+                        <td>L</td>
+                    </tr>
+                    <tr>
+                        <td>q10</td>
+                        <td>T</td>
+                        <td>q12</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q11</td>
+                        <td>⌴<br></td>
+                        <td>q11</td>
+                        <td>⌴<br></td>
+                        <td>L</td>
+                    </tr>
+                    <tr>
+                        <td>q11</td>
+                        <td>P</td>
+                        <td>q12</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q12</td>
+                        <td>⌴<br></td>
+                        <td>q12</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr>
+                        <td>q12</td>
+                        <td>E</td>
+                        <td>q13</td>
+                        <td>⌴<br></td>
+                        <td>R</td>
+                    </tr>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+        <h5>Technische Dokumentation</h5>
+        <p>Das User Interface habe ich mithilfe der&nbsp;Entwicklungsanwendung&nbsp;<a href="https://bootstrapstudio.io/" target="_blank">Bootstrap Studio</a>&nbsp;gestaltet.&nbsp;<br>Mithilfe dem Framework&nbsp;<a href="https://introjs.com/" target="_blank">IntroJS</a>&nbsp;habe ich eine kleine Hilfe-Tour durch meine Anwendung eingebaut.<br><br><span style="color: rgb(0, 0, 0);">Zunächst wird ein zu überprüfender Ausdruck erstellt. Das kann durch eine freie Texteingabe oder über die zwei Buttons erfolgen.&nbsp;Im Anschluss wird die Animation der Turingmaschine durch einen Klick auf dem Play-Button gestartet.</span><br><span style="color: rgb(0, 0, 0);">Für die Gestaltung der Schritte habe ich die JavaScript-Bibliothek jQuery verwendet.</span><br><br>Für eine bessere Mensch-Computer-Interaktion werden alle Buttons, die zu einem bestimmten Zeitpunkt nicht ausführbar sein sollen, sichtbar disabled.<br></p><script src="https://gist.github.com/jessica-charzynski/0a404fb6d408a55e00b0d157fe25024d.js"></script>
+        <p><span style="color: rgb(0, 0, 0);">Meine Anwendung ruft den zu überprüfenden Ausdruck auf und wandelt ihn in ein Array aus den einzelnen Zeichen um. Die Geschwindigkeit der Animation wird anhand der Auswahl des Users im Dropdown-Menü bestimmt.</span><br><span style="color: rgb(0, 0, 0);">Anschließend wird Zeichen für Zeichen überprüft.</span><br></p><script src="https://gist.github.com/jessica-charzynski/e71c9bb1c32f1a7ec93024e34e1aa7e8.js"></script>
+        <p><span style="color: rgb(0, 0, 0);">Liegt eine gültige Eingabe vor, wird das Zeichen entsprechend im Band mit einem Blank-Symbol überschrieben. Eine Ausnahme stellt hierbei die zweite Stelle im Ausdruck da. Das T bzw. P bleibt im Band zunächst stehen und dient zur Überprüfung des vorletzten Zeichens. Das muss für einen gültigen Ausdruck mit dem zweiten Zeichen übereinstimmen.&nbsp;</span><br><span style="color: rgb(0, 0, 0);">&nbsp;</span><br><span style="color: rgb(0, 0, 0);">Die Überprüfung der Zeichen erfolgt solange bis</span><br><span style="color: rgb(0, 0, 0);">a) ein ungültiges Zeichen an einer Stelle vorliegt und somit die Animation mit einer entsprechenden Rückmeldung beendet wird.</span><br><span style="color: rgb(0, 0, 0);">b) alle Zeichen überprüft wurden.&nbsp;Ist dabei der Endzustand erreicht worden und liegt ein leeres Band vor, handelt es sich um eine gültigen Ausdruck der&nbsp;</span>Embedded Reber Grammar<span style="color: rgb(0, 0, 0);">&nbsp;und die Rückmeldung „Ausdruck ist gültig“ erscheint.&nbsp;Wurde jedoch der Endzustand nicht erreicht und/oder befinden sich noch Zeichen im Band, dann handelt es sich um einen ungültigen Ausdruck und die Rückmeldung "Ausdruck ist ungültig" wird ausgegeben.</span><br><br><span style="color: rgb(0, 0, 0);">Nach Abspielen der Animation kann mit dem "Anwendung resetten"-Button die Seite mithilfe der Funktion "reloadThePage()" in ihren Ausgangszustand zurückversetzt werden.</span><br></p>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/intro.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/turingmaschine.js"></script>
+</body>
+
+</html>
