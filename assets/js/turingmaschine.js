@@ -78,9 +78,9 @@ if (expressionArray[i] == "B") {
 
 // TO-DO
 // B wird im Band zu ⌴ 
-var expressionQ0 = expressionArray;
-expressionQ0[i] = "⌴";
-var expressionQ1 = expressionQ0;
+//var expressionQ0 = expressionArray;
+//expressionQ0[i] = "⌴";
+//var expressionQ1 = expressionQ0;
     
 // q0-Kreis wieder schwarz, q0q1-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() {     
@@ -126,9 +126,9 @@ if (expressionArray[i] == "B") {
 
 // TO-DO
 // B wird im Band zu ⌴
-var expressionQ2 = expressionArray;
-expressionQ2[i] = "⌴";
-var expressionQ3 = expressionQ2;
+//var expressionQ2 = expressionArray;
+//expressionQ2[i] = "⌴";
+//var expressionQ3 = expressionQ2;
     
 // q2-Kreis wieder schwarz, q2q3-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -154,9 +154,9 @@ if (expressionArray[i] == "T") {
 
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ3 = expressionArray;
-expressionQ3[i] = "⌴";
-var expressionQ4 = expressionQ3;
+//var expressionQ3 = expressionArray;
+//expressionQ3[i] = "⌴";
+//var expressionQ4 = expressionQ3;
     
 // q3-Kreis wieder schwarz, q3q4-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -182,9 +182,9 @@ if (expressionArray[i] == "S") {
     
 // TO-DO
 // S wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ5 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ5 = expressionQ4;
     
 // q4-Kreis wieder schwarz, q4-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -210,9 +210,9 @@ if (expressionArray[i] == "S") {
     
 // TO-DO
 // S wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ5_2 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ5_2 = expressionQ4;
     
 // q4-Kreis wieder schwarz, q4-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -238,9 +238,9 @@ if (expressionArray[i] == "X") {
     
 // TO-DO
 // X wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ6 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ6 = expressionQ4;
     
 // q4-Kreis wieder schwarz, q4q6-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -266,9 +266,9 @@ if (expressionArray[i] == "S") {
     
 // TO-DO
 // S wird im Band zu ⌴
-var expressionQ6 = expressionArray;
-expressionQ6[i] = "⌴";
-var expressionQ8 = expressionQ6;
+//var expressionQ6 = expressionArray;
+//expressionQ6[i] = "⌴";
+//var expressionQ8 = expressionQ6;
     
 // q6-Kreis wieder schwarz, q6q8-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -294,9 +294,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ8 = expressionArray;
-expressionQ8[i] = "⌴";
-var expressionQ9 = expressionQ8;
+//var expressionQ8 = expressionArray;
+//expressionQ8[i] = "⌴";
+//var expressionQ9 = expressionQ8;
     
 // q8-Kreis wieder schwarz, q8q9-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -322,9 +322,9 @@ if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q10-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -364,9 +364,9 @@ step++;
 
 // TO-DO
 // T an 2. Stelle wird im Band zu ⌴
-var expression10 = expressionArray;
-expressionQ10[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression10 = expressionArray;
+//expressionQ10[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q10-Kreis wieder schwarz, q10q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -411,9 +411,9 @@ if (expressionArray[i] == "E") {
 
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -471,9 +471,9 @@ else if (expressionArray[i] == "X") {
     
 // TO-DO
 // X wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ5 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ5 = expressionQ4;
     
 // q4-Kreis wieder schwarz, q4q6-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -499,9 +499,9 @@ if (expressionArray[i] == "S") {
     
 // TO-DO
 // S wird im Band zu ⌴
-var expressionQ6 = expressionArray;
-expressionQ6[i] = "⌴";
-var expressionQ8 = expressionQ6;
+//var expressionQ6 = expressionArray;
+//expressionQ6[i] = "⌴";
+//var expressionQ8 = expressionQ6;
     
 // q6-Kreis wieder schwarz, q6q8-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -527,9 +527,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ8 = expressionArray;
-expressionQ8[i] = "⌴";
-var expressionQ9 = expressionQ8;
+//var expressionQ8 = expressionArray;
+//expressionQ8[i] = "⌴";
+//var expressionQ9 = expressionQ8;
     
 // q8-Kreis wieder schwarz, q8q9-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -555,9 +555,9 @@ if (expressionArray[i] == "P") {
     
 // TO-DO
 // P wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q11-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -597,9 +597,9 @@ step++;
 
 // TO-DO
 // P an 2. Stelle wird im Band zu ⌴
-var expression9 = expressionArray;
-expressionQ9[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression9 = expressionArray;
+//expressionQ9[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q11-Kreis wieder schwarz, q11q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -644,9 +644,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -678,9 +678,9 @@ else if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q10-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -720,9 +720,9 @@ step++;
 
 // TO-DO
 // T an 2. Stelle wird im Band zu ⌴
-var expression10 = expressionArray;
-expressionQ10[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression10 = expressionArray;
+//expressionQ10[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q10-Kreis wieder schwarz, q10q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -767,9 +767,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -805,9 +805,9 @@ else if (expressionArray[i] == "X") {
     
 // TO-DO
 // X wird im Band zu ⌴
-var expressionQ6 = expressionArray;
-expressionQ6[i] = "⌴";
-var expressionQ5 = expressionQ6;
+//var expressionQ6 = expressionArray;
+//expressionQ6[i] = "⌴";
+//var expressionQ5 = expressionQ6;
     
 // q6-Kreis wieder schwarz, q6q5-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -833,9 +833,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ5 = expressionArray;
-expressionQ5[i] = "⌴";
-var expressionQ7 = expressionQ5;
+//var expressionQ5 = expressionArray;
+//expressionQ5[i] = "⌴";
+//var expressionQ7 = expressionQ5;
     
 // q5-Kreis wieder schwarz, q5q7-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -861,9 +861,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ7 = expressionArray;
-expressionQ7[i] = "⌴";
-var expressionQ8 = expressionQ7;
+//var expressionQ7 = expressionArray;
+//expressionQ7[i] = "⌴";
+//var expressionQ8 = expressionQ7;
     
 // q7-Kreis wieder schwarz, q7q8-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -889,9 +889,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ8 = expressionArray;
-expressionQ8[i] = "⌴";
-var expressionQ9 = expressionQ8;
+//var expressionQ8 = expressionArray;
+//expressionQ8[i] = "⌴";
+//var expressionQ9 = expressionQ8;
     
 // q8-Kreis wieder schwarz, q8q9-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -917,9 +917,9 @@ if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q10-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -959,9 +959,9 @@ step++;
 
 // TO-DO
 // T an 2. Stelle wird im Band zu ⌴
-var expression10 = expressionArray;
-expressionQ10[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression10 = expressionArray;
+//expressionQ10[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q10-Kreis wieder schwarz, q10q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1006,9 +1006,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1068,9 +1068,9 @@ else if (expressionArray[i] == "P") {
     
 // TO-DO
 // P wird im Band zu ⌴
-var expressionQ3 = expressionArray;
-expressionQ3[i] = "⌴";
-var expressionQ5 = expressionQ3;
+//var expressionQ3 = expressionArray;
+//expressionQ3[i] = "⌴";
+//var expressionQ5 = expressionQ3;
     
 // q3-Kreis wieder schwarz, q3q5-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1096,9 +1096,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ5 = expressionArray;
-expressionQ5[i] = "⌴";
-var expressionQ7 = expressionQ5;
+//var expressionQ5 = expressionArray;
+//expressionQ5[i] = "⌴";
+//var expressionQ7 = expressionQ5;
     
 // q5-Kreis wieder schwarz, q5q7-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1124,9 +1124,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ7 = expressionArray;
-expressionQ7[i] = "⌴";
-var expressionQ8 = expressionQ7;
+//var expressionQ7 = expressionArray;
+//expressionQ7[i] = "⌴";
+//var expressionQ8 = expressionQ7;
     
 // q7-Kreis wieder schwarz, q7q8-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1152,9 +1152,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ8 = expressionArray;
-expressionQ8[i] = "⌴";
-var expressionQ9 = expressionQ8;
+//var expressionQ8 = expressionArray;
+//expressionQ8[i] = "⌴";
+//var expressionQ9 = expressionQ8;
     
 // q8-Kreis wieder schwarz, q8q9-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1180,9 +1180,9 @@ if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q10-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1222,9 +1222,9 @@ step++;
 
 // TO-DO
 // T an 2. Stelle wird im Band zu ⌴
-var expression10 = expressionArray;
-expressionQ10[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression10 = expressionArray;
+//expressionQ10[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q10-Kreis wieder schwarz, q10q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1269,9 +1269,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1309,9 +1309,9 @@ else if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ5 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ5 = expressionQ4;
     
 // q5-Kreis wieder schwarz, q5-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1337,9 +1337,9 @@ if (expressionArray[i] == "T") {
     
 // TO-DO
 // T wird im Band zu ⌴
-var expressionQ4 = expressionArray;
-expressionQ4[i] = "⌴";
-var expressionQ5_2 = expressionQ4;
+//var expressionQ4 = expressionArray;
+//expressionQ4[i] = "⌴";
+//var expressionQ5_2 = expressionQ4;
     
 // q5-Kreis wieder schwarz, q5-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1365,9 +1365,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ5 = expressionArray;
-expressionQ5[i] = "⌴";
-var expressionQ7 = expressionQ5;
+//var expressionQ5 = expressionArray;
+//expressionQ5[i] = "⌴";
+//var expressionQ7 = expressionQ5;
     
 // q5-Kreis wieder schwarz, q5q7-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1393,9 +1393,9 @@ if (expressionArray[i] == "V") {
     
 // TO-DO
 // V wird im Band zu ⌴
-var expressionQ7 = expressionArray;
-expressionQ7[i] = "⌴";
-var expressionQ8 = expressionQ7;
+//var expressionQ7 = expressionArray;
+//expressionQ7[i] = "⌴";
+//var expressionQ8 = expressionQ7;
     
 // q7-Kreis wieder schwarz, q7q8-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1421,9 +1421,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ8 = expressionArray;
-expressionQ8[i] = "⌴";
-var expressionQ9 = expressionQ8;
+//var expressionQ8 = expressionArray;
+//expressionQ8[i] = "⌴";
+//var expressionQ9 = expressionQ8;
     
 // q8-Kreis wieder schwarz, q8q9-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1449,9 +1449,9 @@ if (expressionArray[i] == "P") {
     
 // TO-DO
 // P wird im Band zu ⌴
-var expressionQ9 = expressionArray;
-expressionQ9[i] = "⌴";
-var expressionQ10 = expressionQ9;
+//var expressionQ9 = expressionArray;
+//expressionQ9[i] = "⌴";
+//var expressionQ10 = expressionQ9;
     
 // q9-Kreis wieder schwarz, q9q11-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1491,9 +1491,9 @@ step++;
 
 // TO-DO
 // P an 2. Stelle wird im Band zu ⌴
-var expression9 = expressionArray;
-expressionQ9[1] = "⌴";
-var expressionQ11 = expressionQ10;
+//var expression9 = expressionArray;
+//expressionQ9[1] = "⌴";
+//var expressionQ11 = expressionQ10;
     
 // q11-Kreis wieder schwarz, q11q12-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
@@ -1538,9 +1538,9 @@ if (expressionArray[i] == "E") {
     
 // TO-DO
 // E wird im Band zu ⌴
-var expressionQ12 = expressionArray;
-expressionQ12[i] = "⌴";
-var expressionQ13 = expressionQ12;
+//var expressionQ12 = expressionArray;
+//expressionQ12[i] = "⌴";
+//var expressionQ13 = expressionQ12;
     
 // q12-Kreis wieder schwarz, q12q13-Pfeil wird grün angezeigt, Band wird aktualisiert
 setTimeout(function() { 
